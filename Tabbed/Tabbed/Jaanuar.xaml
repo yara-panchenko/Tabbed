@@ -5,9 +5,16 @@
              Title="Jaanuar">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Uusasta"/>
-            <Image Source="jan.jpg"
-                   />
+            <Button Text = "Uusasta" FontSize="Large" BorderWidth="1"
+        HorizontalOptions="Center" VerticalOptions="CenterAndExpand"
+        Clicked="Button_Clicked" />
+            <Button Text = "Kolmekuningapäev" FontSize="Large" BorderWidth="1"
+        HorizontalOptions="Center" VerticalOptions="CenterAndExpand"
+        Clicked="Button_Clicked_1" />
+        </StackLayout>
+        <StackLayout>
+            <Image Source="jan.jpg"></Image>
+            <Image Source="jan1.jpg"></Image>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

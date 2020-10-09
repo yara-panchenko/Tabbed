@@ -5,9 +5,8 @@
              Title="Oktoober">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Hõimupäev"/>
+            <Image Source="okt.jpg"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

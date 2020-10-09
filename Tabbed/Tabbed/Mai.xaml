@@ -5,9 +5,12 @@
              Title="Mai">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Kevadpüha"/>
+            <Image Source="mai.jpg"/>
+            <Label Text="Emadepäev"/>
+            <Image Source="mai1.jpg"/>
+            <Label Text="Nelipühade 1. püha"/>
+            <Image Source="mai2.jpg"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

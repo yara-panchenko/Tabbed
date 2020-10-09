@@ -5,9 +5,16 @@
              Title="Detsember">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Jõululaupäevale eelnev päev"/>
+            <Image Source="det.jpg"/>
+            <Label Text="Jõululaupäev"/>
+            <Image Source="det1.jpg"/>
+            <Label Text="Esimene jõulupüha"/>
+            <Image Source="det2.jpg"/>
+            <Label Text="Teine jõulupüha"/>
+            <Image Source="det3.jpg"/>
+            <Label Text="Uuele aastale eelnev päev"/>
+            <Image Source="det4.jpg"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

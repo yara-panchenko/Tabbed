@@ -5,9 +5,7 @@
              Title="Juuli">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Peod ei ole!"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -5,9 +5,10 @@
              Title="Aprill">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Suur reede"/>
+            <Image Source="apr.jpg"/>
+            <Label Text="Ülestõusmispühade 1. püha"/>
+            <Image Source="apr1.jpg"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

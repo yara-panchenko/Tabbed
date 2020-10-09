@@ -5,9 +5,10 @@
              Title="August">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Taasiseseisvumispäev"/>
+            <Image Source="aug.jpg"/>
+            <Label Text="Kommunismi ja natsismi ohvrite mälestuspäev"/>
+            <Image Source="aug1.jpg"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

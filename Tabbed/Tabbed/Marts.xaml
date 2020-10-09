@@ -5,9 +5,8 @@
              Title="Marts">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Emakeelepäev"/>
+            <Image Source="mar.jpg"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

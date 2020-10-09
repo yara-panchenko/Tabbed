@@ -5,9 +5,12 @@
              Title="Veebruar">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Tartu rahulepingu aastapäev"/>
+            <Image Source="veb.jpg"/>
+            <Label Text="Eesti Vabariigi aastapäevale eelnev päev"/>
+            <Image Source="veb1.jpg"/>
+            <Image Source="Iseseisvuspäev, Eesti Vabariigi aastapäev"/>
+            <Image Source="veb2.jpg"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
