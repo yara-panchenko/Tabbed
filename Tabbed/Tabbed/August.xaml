@@ -5,10 +5,12 @@
              Title="August">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Taasiseseisvumispäev"/>
-            <Image Source="aug.jpg"/>
-            <Label Text="Kommunismi ja natsismi ohvrite mälestuspäev"/>
-            <Image Source="aug1.jpg"/>
+            <Button Text = "Taasiseseisvumispäev" FontSize="Large" BorderWidth="1"
+        HorizontalOptions="Center" VerticalOptions="CenterAndExpand"
+        Clicked="Button_Clicked" />
+            <Button Text = "Kommunismi ja natsismi ohvrite mälestuspäev" FontSize="Large" BorderWidth="1"
+        HorizontalOptions="Center" VerticalOptions="CenterAndExpand"
+        Clicked="Button_Clicked_1" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -5,12 +5,15 @@
              Title="November">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Hingedepäev"/>
-            <Image Source="nov.jpg"/>
-            <Label Text="Isadepäev"/>
-            <Image Source="nov1.jpg"/>
-            <Label Text="Taassünni päev"/>
-            <Image Source="nov2.jpg"/>
+            <Button Text = "Hingedepäe" FontSize="Large" BorderWidth="1"
+        HorizontalOptions="Center" VerticalOptions="CenterAndExpand"
+        Clicked="Button_Clicked" />
+            <Button Text = "Isadepäev" FontSize="Large" BorderWidth="1"
+        HorizontalOptions="Center" VerticalOptions="CenterAndExpand"
+        Clicked="Button_Clicked_1" />
+            <Button Text = "Taassünni päev" FontSize="Large" BorderWidth="1"
+        HorizontalOptions="Center" VerticalOptions="CenterAndExpand"
+        Clicked="Button_Clicked_2" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

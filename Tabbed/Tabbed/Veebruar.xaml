@@ -5,12 +5,15 @@
              Title="Veebruar">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Tartu rahulepingu aastapäev"/>
-            <Image Source="veb.jpg"/>
-            <Label Text="Eesti Vabariigi aastapäevale eelnev päev"/>
-            <Image Source="veb1.jpg"/>
-            <Image Source="Iseseisvuspäev, Eesti Vabariigi aastapäev"/>
-            <Image Source="veb2.jpg"/>
+            <Button Text = "Tartu rahulepingu aastapäev" FontSize="Large" BorderWidth="1"
+        HorizontalOptions="Center" VerticalOptions="CenterAndExpand"
+        Clicked="Button_Clicked" />
+            <Button Text = "Eesti Vabariigi aastapäevale eelnev päev" FontSize="Large" BorderWidth="1"
+        HorizontalOptions="Center" VerticalOptions="CenterAndExpand"
+        Clicked="Button_Clicked_1" />
+            <Button Text = "Iseseisvuspäev, Eesti Vabariigi aastapäev" FontSize="Large" BorderWidth="1"
+        HorizontalOptions="Center" VerticalOptions="CenterAndExpand"
+        Clicked="Button_Clicked_2" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

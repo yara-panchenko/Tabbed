@@ -12,9 +12,5 @@
         HorizontalOptions="Center" VerticalOptions="CenterAndExpand"
         Clicked="Button_Clicked_1" />
         </StackLayout>
-        <StackLayout>
-            <Image Source="jan.jpg"></Image>
-            <Image Source="jan1.jpg"></Image>
-        </StackLayout>
     </ContentPage.Content>
 </ContentPage>

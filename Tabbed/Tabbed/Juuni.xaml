@@ -5,16 +5,21 @@
              Title="Juuni">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Eesti lipu päev"/>
-            <Image Source="jun.jpg"/>
-            <Label Text="Leinapäev"/>
-            <Image Source="jun1.jpg"/>
-            <Label Text="Võidupühale eelnev päev"/>
-            <Image Source="jun2.jpg"/>
-            <Label Text="Võidupüha"/>
-            <Image Source="jun3.jpg"/>
-            <Label Text="Jaanipäev"/>
-            <Image Source="jun4.jpg"/>
+            <Button Text = "Eesti lipu päev" FontSize="Large" BorderWidth="1"
+        HorizontalOptions="Center" VerticalOptions="CenterAndExpand"
+        Clicked="Button_Clicked" />
+            <Button Text = "Leinapäev" FontSize="Large" BorderWidth="1"
+        HorizontalOptions="Center" VerticalOptions="CenterAndExpand"
+        Clicked="Button_Clicked_1" />
+            <Button Text = "Võidupühale eelnev päev" FontSize="Large" BorderWidth="1"
+        HorizontalOptions="Center" VerticalOptions="CenterAndExpand"
+        Clicked="Button_Clicked_2" />
+            <Button Text = "Võidupüha" FontSize="Large" BorderWidth="1"
+        HorizontalOptions="Center" VerticalOptions="CenterAndExpand"
+        Clicked="Button_Clicked_3" />
+            <Button Text = "Jaanipäev" FontSize="Large" BorderWidth="1"
+        HorizontalOptions="Center" VerticalOptions="CenterAndExpand"
+        Clicked="Button_Clicked_4" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

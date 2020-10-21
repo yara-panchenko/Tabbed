@@ -16,5 +16,10 @@ namespace Tabbed
         {
             InitializeComponent();
         }
+
+        private void Button_Clicked(object sender, EventArgs e)
+        {
+            DisplayAlert("Emakeelepäev", "Emakeelepäev on riiklik tähtpäev, mida tähistatakse 1996. aastast luuletaja Kristjan Jaak Petersoni sünniaastapäeval, 14. märtsil.[1] Emakeelepäeva jaoks valiti Kristjan Jaak Petersoni sünnipäev, kuna Peterson oli üks esimesi eestikeelseid kirjanikke. ","Back");
+        }
     }
 }

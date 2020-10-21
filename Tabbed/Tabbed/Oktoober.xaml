@@ -5,8 +5,9 @@
              Title="Oktoober">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Hõimupäev"/>
-            <Image Source="okt.jpg"/>
+            <Button Text = "Hõimupäev" FontSize="Large" BorderWidth="1"
+        HorizontalOptions="Center" VerticalOptions="CenterAndExpand"
+        Clicked="Button_Clicked" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

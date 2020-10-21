@@ -5,16 +5,21 @@
              Title="Detsember">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Jõululaupäevale eelnev päev"/>
-            <Image Source="det.jpg"/>
-            <Label Text="Jõululaupäev"/>
-            <Image Source="det1.jpg"/>
-            <Label Text="Esimene jõulupüha"/>
-            <Image Source="det2.jpg"/>
-            <Label Text="Teine jõulupüha"/>
-            <Image Source="det3.jpg"/>
-            <Label Text="Uuele aastale eelnev päev"/>
-            <Image Source="det4.jpg"/>
+            <Button Text = "Jõululaupäevale eelnev päev" FontSize="Large" BorderWidth="1"
+        HorizontalOptions="Center" VerticalOptions="CenterAndExpand"
+        Clicked="Button_Clicked" />
+            <Button Text = "Jõululaupäev" FontSize="Large" BorderWidth="1"
+        HorizontalOptions="Center" VerticalOptions="CenterAndExpand"
+        Clicked="Button_Clicked_1" />
+            <Button Text = "Esimene jõulupüha" FontSize="Large" BorderWidth="1"
+        HorizontalOptions="Center" VerticalOptions="CenterAndExpand"
+        Clicked="Button_Clicked_2" />
+            <Button Text = "Teine jõulupüha" FontSize="Large" BorderWidth="1"
+        HorizontalOptions="Center" VerticalOptions="CenterAndExpand"
+        Clicked="Button_Clicked_3" />
+            <Button Text = "Uuele aastale eelnev päev" FontSize="Large" BorderWidth="1"
+        HorizontalOptions="Center" VerticalOptions="CenterAndExpand"
+        Clicked="Button_Clicked_4" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

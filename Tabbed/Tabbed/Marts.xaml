@@ -5,8 +5,9 @@
              Title="Marts">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Emakeelepäev"/>
-            <Image Source="mar.jpg"/>
+            <Button Text = "Emakeelepäev" FontSize="Large" BorderWidth="1"
+        HorizontalOptions="Center" VerticalOptions="CenterAndExpand"
+        Clicked="Button_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

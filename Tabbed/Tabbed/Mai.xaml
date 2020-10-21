@@ -5,12 +5,15 @@
              Title="Mai">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Kevadpüha"/>
-            <Image Source="mai.jpg"/>
-            <Label Text="Emadepäev"/>
-            <Image Source="mai1.jpg"/>
-            <Label Text="Nelipühade 1. püha"/>
-            <Image Source="mai2.jpg"/>
+            <Button Text = "Kevadpüha" FontSize="Large" BorderWidth="1"
+        HorizontalOptions="Center" VerticalOptions="CenterAndExpand"
+        Clicked="Button_Clicked" />
+            <Button Text = "Emadepäev" FontSize="Large" BorderWidth="1"
+        HorizontalOptions="Center" VerticalOptions="CenterAndExpand"
+        Clicked="Button_Clicked_1" />
+            <Button Text = "Nelipühade 1. püha" FontSize="Large" BorderWidth="1"
+        HorizontalOptions="Center" VerticalOptions="CenterAndExpand"
+        Clicked="Button_Clicked_2" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
